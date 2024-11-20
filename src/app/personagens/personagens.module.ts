@@ -9,6 +9,7 @@ import { PersonagensPageRoutingModule } from './personagens-routing.module';
 import { PersonagensPage } from './personagens.page';
 import { MenuComponent } from '../shared/components/menu/menu.component';
 import { MenuModule } from '../shared/components/menu/menu.module';
+import { CabecalhoModule } from '../shared/components/cabecalho/cabecalho.module';
 
 @NgModule({
   imports: [
