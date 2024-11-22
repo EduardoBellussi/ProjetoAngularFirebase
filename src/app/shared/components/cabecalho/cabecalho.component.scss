@@ -6,13 +6,17 @@
     background-position: center;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    & h1{
+    & h1, marquee{
         font-size: 64px;
         color:white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         letter-spacing: 2px;
         text-shadow: 1px 1px 5px black;
+    }
+    & marquee {
+        font-size: 21px;
     }
 }

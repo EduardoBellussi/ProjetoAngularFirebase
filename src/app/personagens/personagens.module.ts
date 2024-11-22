@@ -17,7 +17,8 @@ import { CabecalhoModule } from '../shared/components/cabecalho/cabecalho.module
     FormsModule,
     IonicModule,
     PersonagensPageRoutingModule,
-    MenuModule
+    MenuModule,
+    CabecalhoModule
   ],
   declarations: [PersonagensPage]
 })
